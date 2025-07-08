@@ -31,10 +31,10 @@ It simulates a basic online bookstore system supporting multiple book types, inv
 
 | Component       | Description |
 |-----------------|-------------|
-| `model/Book.java` | Abstract base class with common fields (ISBN, title, year, etc.) |
-| `model/PaperBook.java` | Has stock, uses `ShippingService` |
-| `model/EBook.java` | Has file type, uses `MailService` |
-| `model/ShowcaseBook.java` | Always unavailable |
+| ` Books/Book.java` | Abstract base class with common fields (ISBN, title, year, etc.) |
+| `Books/PaperBook.java` | Has stock, uses `ShippingService` |
+| `Books/EBook.java` | Has file type, uses `MailService` |
+| `Books/ShowcaseBook.java` | Always unavailable |
 | `service/ShippingService.java` | Sends PaperBook to a shipping address |
 | `service/MailService.java` | Sends EBook to an email address |
 | `store/Inventory.java` | Core class to add, remove, and buy books |
